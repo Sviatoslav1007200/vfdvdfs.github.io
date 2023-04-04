@@ -1,4 +1,4 @@
-
+/* Default styles for all screen sizes */
 .header{
     position: absolute;
     max-width: 100%;
@@ -8,13 +8,15 @@
     margin-top: -150px;
     background: rgb(152, 151, 153);
   }
-.group0{
+  
+  .group0{
     display: flex;
     justify-content: center;
     list-style-type: none;
     font-size: 28px;
-}
-.button_up{
+  }
+  
+  .button_up{
     width: 250px;
     height: 65px;
     right: 15px;
@@ -30,46 +32,51 @@
     left: 150px;
     top: 35px; 
     text-decoration: none;
-}
-.button_up:hover{
+  }
+  
+  .button_up:hover{
     transform:translateY(-5px);
     box-shadow: 0 7px 0 rgb(73, 73, 72);
-}
-.button_up:active{
+  }
+  
+  .button_up:active{
     transform: translateY(-2px);
     box-shadow: 0 3px 0 rgb(41, 41, 40)
-}
-.header_ul{
+  }
+  
+  .header_ul{
     display: flex;
     list-style-type:none;
-}
-.li{
+  }
+  
+  .li{
     margin-left: 50px;
     margin-right:75px;
     margin-top: 15px;
-}
-
-.header_link{
+  }
+  
+  .header_link{
     text-decoration:none;
     color:rgb(0, 0, 0);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.Img1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .Img1{
     position: absolute;
-    width: 180px;
-    margin-left: 175px;
+    width: 25%;
+    margin-left: 37.5%;
     margin-top: -175px;
 }
-
+  
 .Img2{
     position: absolute;
-    width: 700;
-    height: 700px;
-    left: 505px;
-    top: 1000px;
-
+    width: 70%;
+    height: 70vh;
+    left: 15%;
+    top: 50vh;
 }
-.Second{
+  
+  .Second{
     position: absolute;
     left: 1250px;
     top: 1250px;
@@ -77,8 +84,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1px;
     letter-spacing: -1px;
     font-style: normal;
-}
-.Second_Button{
+  }
+  
+  .Second_Button{
     width: 175px;
     height: 65px;
     right: 14px;
@@ -97,20 +105,23 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     font-size: 33px;
-}
-.Second_Button:hover{
+  }
+  
+  .Second_Button:hover{
     transform:translateY(-5px);
     box-shadow: 0 7px 0 rgb(49, 70, 187);
-}
-.Second_Button:active{
+  }
+  
+  .Second_Button:active{
     transform: translateY(-2px);
     box-shadow: 0 3px 0 rgb(60, 99, 206)
-}
-.Film{
+  }
+  
+  .Film{
     position: relative;
     top: 20px;
     left: 120px;
-}
+  }
 .Grow{
     font-family: DM Sans;
     font-size: 150px;
